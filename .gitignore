@@ -1,2 +1,14 @@
 .DS_Store
 *.log
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+test-results/
+playwright-report/
+.work/
+*.tsbuildinfo
